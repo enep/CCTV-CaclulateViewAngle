@@ -13,6 +13,12 @@ type
 
   TForm1 = class(TForm)
     Calculate: TButton;
+    diagonally: TEdit;
+    Horizontally: TEdit;
+    Label8: TLabel;
+    vertically: TEdit;
+    Label6: TLabel;
+    Label7: TLabel;
     MatrixWidth: TEdit;
     HeightMatrix: TEdit;
     DiagonalMatrix: TEdit;
@@ -26,8 +32,6 @@ type
     ResMatrix: TComboBox;
     Label1: TLabel;
     procedure FormCreate(Sender: TObject);
-    procedure MatricscamereClick(Sender: TObject);
-    procedure ResMatrixChange(Sender: TObject);
   private
 
   public
@@ -57,6 +61,8 @@ begin
   ResMatrix.Items.Add('1/3"');
   ResMatrix.Items.Add('1/4"');
 end;
+
+
 
 
 
