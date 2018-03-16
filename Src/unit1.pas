@@ -12,17 +12,21 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    Edit1: TEdit;
-    Edit2: TEdit;
-    Edit3: TEdit;
-    GroupBox1: TGroupBox;
+    Calculate: TButton;
+    MatrixWidth: TEdit;
+    HeightMatrix: TEdit;
+    DiagonalMatrix: TEdit;
+    FocalLength: TEdit;
+    Matricscamere: TGroupBox;
+    ViewAngle: TGroupBox;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
+    Label5: TLabel;
     ResMatrix: TComboBox;
     Label1: TLabel;
     procedure FormCreate(Sender: TObject);
-    procedure GroupBox1Click(Sender: TObject);
+    procedure MatricscamereClick(Sender: TObject);
     procedure ResMatrixChange(Sender: TObject);
   private
 
@@ -54,15 +58,7 @@ begin
   ResMatrix.Items.Add('1/4"');
 end;
 
-procedure TForm1.GroupBox1Click(Sender: TObject);
-begin
 
-end;
-
-procedure TForm1.ResMatrixChange(Sender: TObject);
-begin
-
-end;
 
 end.
 

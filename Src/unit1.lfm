@@ -1,23 +1,23 @@
 object Form1: TForm1
-  Left = 816
-  Height = 391
-  Top = 307
-  Width = 550
+  Left = 357
+  Height = 264
+  Top = 175
+  Width = 687
   Caption = 'Form1'
-  ClientHeight = 391
-  ClientWidth = 550
+  ClientHeight = 264
+  ClientWidth = 687
   OnCreate = FormCreate
   LCLVersion = '1.8.2.0'
-  object GroupBox1: TGroupBox
+  object Matricscamere: TGroupBox
     Left = 8
-    Height = 160
+    Height = 248
     Top = 8
-    Width = 472
+    Width = 232
     Caption = 'Матрица'
-    ClientHeight = 140
-    ClientWidth = 468
+    ClientHeight = 228
+    ClientWidth = 228
     TabOrder = 0
-    OnClick = GroupBox1Click
+    OnClick = MatricscamereClick
     object ResMatrix: TComboBox
       Left = 112
       Height = 23
@@ -32,57 +32,89 @@ object Form1: TForm1
       Left = 8
       Height = 15
       Top = 8
-      Width = 93
-      Caption = 'Размер Матрици'
+      Width = 96
+      Caption = 'Размер Матрици:'
       ParentColor = False
     end
     object Label2: TLabel
       Left = 8
       Height = 15
-      Top = 40
+      Top = 80
       Width = 48
       Caption = 'Ширина:'
       ParentColor = False
     end
-    object Edit1: TEdit
+    object MatrixWidth: TEdit
       Left = 112
       Height = 23
-      Top = 40
-      Width = 96
+      Top = 80
+      Width = 100
       TabOrder = 1
-      Text = 'Edit1'
+      Text = 'MatrixWidth'
     end
     object Label3: TLabel
       Left = 8
       Height = 15
-      Top = 72
+      Top = 112
       Width = 43
       Caption = 'Высота:'
       ParentColor = False
     end
-    object Edit2: TEdit
+    object HeightMatrix: TEdit
       Left = 112
       Height = 23
-      Top = 72
-      Width = 96
+      Top = 112
+      Width = 100
       TabOrder = 2
-      Text = 'Edit2'
+      Text = 'HeightMatrix'
     end
     object Label4: TLabel
       Left = 8
       Height = 15
-      Top = 104
+      Top = 152
       Width = 62
       Caption = 'Диагональ:'
       ParentColor = False
     end
-    object Edit3: TEdit
+    object DiagonalMatrix: TEdit
       Left = 112
       Height = 23
-      Top = 104
-      Width = 96
+      Top = 152
+      Width = 100
       TabOrder = 3
-      Text = 'Edit3'
+      Text = 'DiagonalMatrix'
     end
+    object Calculate: TButton
+      Left = 137
+      Height = 25
+      Top = 192
+      Width = 75
+      Caption = 'Calculate'
+      TabOrder = 4
+    end
+    object Label5: TLabel
+      Left = 8
+      Height = 15
+      Top = 40
+      Width = 99
+      Caption = 'Фокус. растаяние:'
+      ParentColor = False
+    end
+    object FocalLength: TEdit
+      Left = 112
+      Height = 23
+      Top = 40
+      Width = 100
+      TabOrder = 5
+      Text = 'FocalLength'
+    end
+  end
+  object ViewAngle: TGroupBox
+    Left = 248
+    Height = 249
+    Top = 9
+    Width = 432
+    Caption = 'Угол Обзора'
+    TabOrder = 1
   end
 end
