@@ -11,9 +11,6 @@
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
     </General>
-    <VersionInfo>
-      <StringTable ProductVersion=""/>
-    </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
     </BuildModes>
@@ -30,7 +27,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="CCTV-CalcViewAngle.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -39,6 +36,7 @@
         <Filename Value="Src\unit1.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
       </Unit1>
@@ -47,6 +45,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="MathFunc"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="Src\tablesforcalc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TablesForCalc"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -9,10 +9,7 @@ uses
 
 implementation
 
-function arctg(z):real
-begin
-  arctg:=arctan(x);
-end;
+
 
 end.
 
