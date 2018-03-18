@@ -1,82 +1,94 @@
-object Form1: TForm1
-  Left = 704
+object CCTVCalc: TCCTVCalc
+  Left = 850
   Height = 264
-  Top = 287
+  Top = 330
   Width = 687
-  Caption = 'Form1'
+  Caption = 'CCTV:Калькулятор угла обзора камеры'
   ClientHeight = 264
   ClientWidth = 687
-  LCLVersion = '1.8.2.0'
+  Color = clScrollBar
+  LCLVersion = '1.6.0.4'
   object Matricscamere: TGroupBox
     Left = 8
     Height = 248
     Top = 8
     Width = 232
     Caption = 'Матрица'
-    ClientHeight = 228
-    ClientWidth = 228
+    ClientHeight = 230
+    ClientWidth = 230
     TabOrder = 0
     object ResMatrix: TComboBox
       Left = 112
-      Height = 23
+      Height = 29
       Top = 8
       Width = 100
-      ItemHeight = 15
+      ItemHeight = 0
+      ItemIndex = 0
+      Items.Strings = (
+        '1"'
+        '2/3"'
+        '1/2"'
+        '1/2.5"'
+        '1/2.7"'
+        '1/2.8"'
+        '1/3'
+        '1/4'
+      )
       TabOrder = 0
-      Text = 'ResMatrix'
+      Text = '1"'
     end
     object Label1: TLabel
       Left = 8
-      Height = 15
+      Height = 17
       Top = 8
-      Width = 96
+      Width = 104
       Caption = 'Размер Матрици:'
       ParentColor = False
     end
     object Label2: TLabel
       Left = 8
-      Height = 15
-      Top = 80
-      Width = 48
+      Height = 17
+      Top = 72
+      Width = 53
       Caption = 'Ширина:'
       ParentColor = False
     end
     object MatrixWidth: TEdit
       Left = 112
-      Height = 23
-      Top = 80
+      Height = 29
+      Top = 72
       Width = 100
       TabOrder = 1
       Text = 'MatrixWidth'
     end
     object Label3: TLabel
       Left = 8
-      Height = 15
-      Top = 112
-      Width = 43
+      Height = 17
+      Top = 104
+      Width = 46
       Caption = 'Высота:'
       ParentColor = False
     end
     object HeightMatrix: TEdit
       Left = 112
-      Height = 23
-      Top = 112
+      Height = 29
+      Top = 104
       Width = 100
       TabOrder = 2
       Text = 'HeightMatrix'
     end
     object Label4: TLabel
       Left = 8
-      Height = 15
-      Top = 152
-      Width = 62
+      Height = 17
+      Top = 136
+      Width = 67
       Caption = 'Диагональ:'
       ParentColor = False
     end
     object DiagonalMatrix: TEdit
       Left = 112
-      Height = 23
-      Top = 152
+      Height = 29
+      Top = 136
       Width = 100
       TabOrder = 3
       Text = 'DiagonalMatrix'
@@ -91,15 +103,15 @@ object Form1: TForm1
     end
     object Label5: TLabel
       Left = 8
-      Height = 15
+      Height = 17
       Top = 40
-      Width = 99
+      Width = 107
       Caption = 'Фокус. растаяние:'
       ParentColor = False
     end
     object FocalLength: TEdit
       Left = 112
-      Height = 23
+      Height = 29
       Top = 40
       Width = 100
       TabOrder = 5
@@ -108,24 +120,24 @@ object Form1: TForm1
   end
   object ViewAngle: TGroupBox
     Left = 248
-    Height = 161
+    Height = 249
     Top = 9
-    Width = 432
+    Width = 232
     Caption = 'Угол Обзора'
-    ClientHeight = 141
-    ClientWidth = 428
+    ClientHeight = 231
+    ClientWidth = 230
     TabOrder = 1
     object Label6: TLabel
       Left = 11
-      Height = 15
+      Height = 17
       Top = 7
-      Width = 92
+      Width = 98
       Caption = 'По горизонтали:'
       ParentColor = False
     end
     object Horizontally: TEdit
       Left = 113
-      Height = 23
+      Height = 29
       Top = 7
       Width = 104
       TabOrder = 0
@@ -133,15 +145,15 @@ object Form1: TForm1
     end
     object Label7: TLabel
       Left = 11
-      Height = 15
+      Height = 17
       Top = 48
-      Width = 78
+      Width = 84
       Caption = 'По вертикале:'
       ParentColor = False
     end
     object vertically: TEdit
       Left = 113
-      Height = 23
+      Height = 29
       Top = 48
       Width = 104
       TabOrder = 1
@@ -149,15 +161,15 @@ object Form1: TForm1
     end
     object Label8: TLabel
       Left = 15
-      Height = 15
+      Height = 17
       Top = 98
-      Width = 80
+      Width = 86
       Caption = 'По диагонали:'
       ParentColor = False
     end
     object diagonally: TEdit
       Left = 112
-      Height = 23
+      Height = 29
       Top = 96
       Width = 104
       TabOrder = 2

@@ -13,6 +13,7 @@ uses
 {$R *.res}
 
 begin
+  Application.Title:='CCTV-CalcViewAngle';
   RequireDerivedFormResource:=True;
   Application.Initialize;
   Application.CreateForm(TCCTVCalc, CCTVCalc);

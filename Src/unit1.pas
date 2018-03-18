@@ -9,9 +9,9 @@ uses
 
 type
 
-  { TForm1 }
+  { TCCTVCalc }
 
-  TForm1 = class(TForm)
+  TCCTVCalc = class(TForm)
     Calculate: TButton;
     diagonally: TEdit;
     Horizontally: TEdit;
@@ -39,19 +39,18 @@ type
   end;
 
 var
-  Form1: TForm1;
+  CCTVCalc: TCCTVCalc;
 
 implementation
 
 {$R *.lfm}
 
-{ TForm1 }
+{ TCCTVCalc }
 
 
 
-procedure TForm1.FormCreate(Sender: TObject);
+procedure TCCTVCalc.FormCreate(Sender: TObject);
 begin
-  ResMatrix.Items.Clear;
   ResMatrix.Items.Add('1"');
   ResMatrix.Items.Add('2/3"');
   ResMatrix.Items.Add('1/2"');

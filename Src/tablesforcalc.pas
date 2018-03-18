@@ -9,9 +9,20 @@ uses
 
 type
 
-  TDimMatrices = record
-    Wedth,Height,Diagonal:Real;
-    ResIn:String;
+  CCTVRect = record
+    height    : double;
+    width     : double;
+    Diagonal  : double;
+  end;
+
+  CCTVCamera = class
+    private:
+
+    public:
+      constructor Create;
+      destructor Destory; override;
+
+
   end;
 
 implementation
