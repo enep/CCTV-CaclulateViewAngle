@@ -5,7 +5,7 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,TablesForCalc;
 
 type
 
@@ -16,6 +16,9 @@ type
     diagonally: TEdit;
     Horizontally: TEdit;
     Label8: TLabel;
+    typeMatrix: TLabel;
+    _169: TRadioButton;
+    _43: TRadioButton;
     vertically: TEdit;
     Label6: TLabel;
     Label7: TLabel;
@@ -31,6 +34,9 @@ type
     Label5: TLabel;
     ResMatrix: TComboBox;
     Label1: TLabel;
+
+    CCTVCamera:c_CCTVCamera;
+
     procedure FormCreate(Sender: TObject);
   private
 
