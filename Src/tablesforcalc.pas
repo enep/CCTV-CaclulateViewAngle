@@ -10,9 +10,9 @@ uses
 type
 
   CCTVRect = record
-    height    : double;
-    width     : double;
-    Diagonal  : double;
+    height    : Double;
+    width     : Double;
+    Diagonal  : Double;
   end;
 
   c_CCTVCamera = class(TObject)
@@ -22,8 +22,8 @@ type
       FocalLength :Double;
 
     public
-      //constructor Create(_matrixsize:shortstring;_focallength:double);
-      procedure setMatrixSize(ms:string);
+      constructor Create(_matrixsize:shortstring;_focallength:double);
+      function  setMatrixSize(ms:string; wide:Boolean = False): CCTVRect;
 
 
 
@@ -31,7 +31,12 @@ type
 
 implementation
 
-procedure c_CCTVCamera.setMatrixSize(ms:string);
+constructor c_CCTVCamera.Create(_matrixsize:shortstring;_focallength:double);
+begin
+
+end;
+
+function c_CCTVCamera.setMatrixSize(ms:string; wide:Boolean = False): CCTVRect;
 var
 
   MatrixSizeTable_43 : array[1..8,1..3] of Double;

@@ -4,13 +4,13 @@
     <PathDelim Value="\"/>
     <Version Value="10"/>
     <BuildModes Active="Default"/>
-    <Units Count="7">
+    <Units Count="8">
       <Unit0>
         <Filename Value="CCTV-CalcViewAngle.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="49" Y="21"/>
-        <UsageCount Value="85"/>
+        <UsageCount Value="92"/>
       </Unit0>
       <Unit1>
         <Filename Value="Src\unit1.pas"/>
@@ -20,8 +20,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <EditorIndex Value="2"/>
+        <TopLine Value="46"/>
         <CursorPos Y="3"/>
-        <UsageCount Value="85"/>
+        <UsageCount Value="92"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -31,7 +32,7 @@
         <UnitName Value="MathFunc"/>
         <EditorIndex Value="1"/>
         <CursorPos Y="12"/>
-        <UsageCount Value="85"/>
+        <UsageCount Value="92"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -39,35 +40,41 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="TablesForCalc"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="38"/>
-        <CursorPos X="5" Y="18"/>
-        <UsageCount Value="84"/>
+        <TopLine Value="14"/>
+        <CursorPos X="3" Y="36"/>
+        <UsageCount Value="91"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
+        <Filename Value="Src\unit1.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="41"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit4>
+      <Unit5>
         <Filename Value="project1.lpr"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="14"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="Src\unit1.lfm"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="34"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
+        <UsageCount Value="13"/>
       </Unit5>
       <Unit6>
         <Filename Value="F:\apps\lazarus\fpc\3.0.4\source\rtl\inc\objpash.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="180"/>
         <CursorPos X="23" Y="194"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="CCTV-CalcViewAngle.lpi"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit7>
     </Units>
-    <JumpHistory Count="15" HistoryIndex="14">
+    <JumpHistory Count="17" HistoryIndex="16">
       <Position1>
         <Filename Value="Src\unit1.pas"/>
         <Caret Line="46"/>
@@ -128,6 +135,14 @@
         <Filename Value="Src\unit1.pas"/>
         <Caret Line="38" Column="29" TopLine="26"/>
       </Position15>
+      <Position16>
+        <Filename Value="Src\tablesforcalc.pas"/>
+        <Caret Line="25" Column="76" TopLine="5"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Src\tablesforcalc.pas"/>
+        <Caret Line="26" Column="59" TopLine="21"/>
+      </Position17>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
